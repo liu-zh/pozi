@@ -1,3 +1,3 @@
-#ifndef _UTIL_H
-#define _UTIL_H
-#end
+#ifndef _UTIL_H_
+#define _UTIL_H_
+#endif
