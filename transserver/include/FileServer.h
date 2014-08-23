@@ -94,8 +94,8 @@ private:
 	}
 
 public:
-	Filereceive(boost::asio::io_service& io_service)
-    :acceptor_(io_service,tcp::endpoint(tcp::v4(), 6700)),io_service(io_service)
+	Filereceive(boost::asio::io_service& io_service,const int& port)
+    :acceptor_(io_service,tcp::endpoint(tcp::v4(), /*6700*/port)),io_service(io_service)
     {
 
 		start_accept();
@@ -109,9 +109,10 @@ public:
 };
 class FileServer {
 private:
-	Filereceive _filereceive;
+	int port;
 public:
-	FileServer(boost::asio::io_service& io_service);
+	FileServer(const int& port);
+	void startFileServer();
 	virtual ~FileServer();
 };
 
