@@ -13,13 +13,13 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 /***************
-common accept the connect
-from client 
-and return the
-file description of
-server 
-********************/
-int server_listen(const int port,const int backlog,int nonblock);
-int client_connect(const char* ipaddr,const int port);
+ common accept the connect
+ from client
+ and return the
+ file description of
+ server
+ ********************/
+int server_listen(const int port, const int backlog, int nonblock);
+int client_connect(const char* ipaddr, const int port);
 int setnonblock(int sockfd);
 #endif

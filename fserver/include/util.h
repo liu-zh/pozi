@@ -6,12 +6,12 @@
 #include <errno.h>
 #include "polist.h"
 /******************
-get the value after
-the last a character
-****************/
-int last_index_of(char* src,const char* dest,int destlen,char a);
+ get the value after
+ the last a character
+ ****************/
+int last_index_of(char* src, const char* dest, int destlen, char a);
 /*****************/
-void analyze_config(const char*,config_linklist*);
+void analyze_config(const char*, config_linklist*);
 /****************/
 int getLocalIp(char*);
 /****************/

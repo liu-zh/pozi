@@ -1,5 +1,5 @@
 #include "../include/scheduler.h"
-int main(){
-scheduler();
-return 0;
+int main() {
+	scheduler();
+	return 0;
 }

@@ -11,5 +11,5 @@ pthread_t pt;
 int init_pool(pool_linklist**);
 struct list_mysql_node* getConn(struct list_mysql_node*);
 void blockhere();
-int releaseConn(struct list_mysql_node*,struct list_mysql_node*);
+int releaseConn(struct list_mysql_node*, struct list_mysql_node*);
 #endif

@@ -3,5 +3,5 @@
 #include "po_sock.h"
 #include "message.h"
 
-int send_file(const char*,struct data_msg*);
+int send_file(const char*, struct data_msg*);
 #endif

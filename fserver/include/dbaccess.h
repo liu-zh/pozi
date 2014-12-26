@@ -5,7 +5,7 @@
 #ifndef CONNINTERVAL
 #define CONNINTERVAL 1000*60*5;
 #endif
-int execute_sql(const char*,  struct list_mysql_node*,void (*handleRes)(void*));
+int execute_sql(const char*, struct list_mysql_node*, void (*handleRes)(void*));
 int maintain_connect(struct list_mysql_node*);
 
 #endif

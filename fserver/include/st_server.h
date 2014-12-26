@@ -19,7 +19,7 @@ struct data_msg databuf;
 /**************************/
 int regist_self();
 /************************/
-int accept_fd(int serverfd,const char*);
+int accept_fd(int serverfd, const char*);
 /************************/
 int init_server(const char* receivedir);
 /*************************/
